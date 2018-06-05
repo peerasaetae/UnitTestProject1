@@ -9,6 +9,10 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
+            string expected = "Hi, Peera";
+            string actual = null;
+
+            Assert.AreEqual(expected, actual);
         }
     }
 }
